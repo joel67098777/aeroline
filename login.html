@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("imagenes/fondo2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .form-signin {
+            animation: slideInDown 1s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 1px solid #dee2e6;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 5px;
+            margin-top: 20vh;
+        }
+
+        .form-signin-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .airline-logo {
+            margin-bottom: 20px;
+            max-width: 100px;
+            height: auto;
+        }
+        .login{
+            color: black;
+            font-family: Vineta BT;
+        }
+    </style>
+    <title>Login - Qarae Airways</title>
+</head>
+
+<body class="text-center">
+    <form id="formjs" class="form-signin border">
+        <img class="airline-logo" src="https://seeklogo.com/images/E/Emirates_Airlines-logo-3A6A7D24CA-seeklogo.com.png" alt="Qarae Airways Logo">
+        <h1 class="login">Login</h1>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Password" required>
+
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Sign In</button>
+        <p class="mt-4 mb-3 text-muted">&copy; 2023 Qarae Airways. All rights reserved.</p>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+ 
+</body>
+
+</html>
